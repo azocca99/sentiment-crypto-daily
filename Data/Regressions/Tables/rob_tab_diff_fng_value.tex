@@ -1,0 +1,55 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l *{10}{c}}
+\toprule
+&\multicolumn{1}{c}{\textbf{Bitcoin}}&\multicolumn{2}{c}{\textbf{High-Cap}}&\multicolumn{2}{c}{\textbf{Mid-Cap}}&\multicolumn{2}{c}{\textbf{Low-Cap}}&\multicolumn{1}{c}{\textbf{Gold}}&\multicolumn{1}{c}{\textbf{Stable}}&\multicolumn{1}{c}{\textbf{Meme}}\\
+\addlinespace
+ & BTC & SOL & EOS & FTT & ELF & REN & PERP & PAX & XAUT & DOGE \\
+\midrule
+Intercept & 0.050 & 0.281 & -0.115 & -0.016 & -0.085 & -0.023 & -0.172 & 0.000 & 0.040* & -0.029 \\
+ & (0.102) & (0.152) & (0.107) & (0.157) & (0.123) & (0.147) & (0.183) & (0.006) & (0.020) & (0.129) \\
+\addlinespace
+diff_fng_value & 0.049 & 0.250 & -0.038 & 0.318* & 0.045 & 0.385* & 0.112 & -0.005 & 0.003 & -0.011 \\
+ & (0.078) & (0.182) & (0.115) & (0.153) & (0.144) & (0.177) & (0.215) & (0.005) & (0.019) & (0.150) \\
+\addlinespace
+$R_{i,t}$ & -0.328* & -0.355 & -0.355* & 0.356 & -0.594 & -0.622** & 0.085 & -0.005 & 0.011** & -0.004 \\
+ & (0.142) & (0.260) & (0.173) & (0.907) & (0.365) & (0.136) & (0.083) & (0.010) & (0.004) & (0.638) \\
+\addlinespace
+$\Delta\log\ $TxCnt & -0.062 & -0.119 & -0.239* & -0.078 & 0.058 & -0.299 & 0.568 & 0.008 & -0.021 & -0.026 \\
+ & (0.065) & (0.150) & (0.102) & (0.293) & (0.212) & (0.335) & (0.442) & (0.016) & (0.050) & (0.095) \\
+\addlinespace
+$\Delta\log\ $Volume & -0.021 & 0.231 & -0.113 & -0.114 & -0.227 & -0.073 & -0.831** & -0.003 & -0.010 & 0.471* \\
+ & (0.075) & (0.183) & (0.113) & (0.265) & (0.144) & (0.197) & (0.311) & (0.008) & (0.021) & (0.190) \\
+\addlinespace
+$\Delta\log\ $AdrActCnt & 0.102 & 0.086 & 0.080 & -0.055 & -0.074 & 0.337 & 0.084 & -0.007 & 0.026 & -0.111 \\
+ & (0.079) & (0.218) & (0.097) & (0.340) & (0.197) & (0.307) & (0.306) & (0.015) & (0.042) & (0.123) \\
+\addlinespace
+$\log\ $UnemRt & 0.270 & 1.227* & 0.286 & 0.300 & 0.277 & 0.237 & 0.604 & -0.001 & 0.021 & 0.808* \\
+ & (0.150) & (0.580) & (0.265) & (0.251) & (0.370) & (0.399) & (0.554) & (0.009) & (0.066) & (0.352) \\
+\addlinespace
+$\log\ $IndPro & 0.055 & 0.677 & 0.039 & 0.011 & -0.079 & -0.389 & -0.387 & -0.001 & -0.070 & 0.935 \\
+ & (0.290) & (0.508) & (0.314) & (0.290) & (0.382) & (0.393) & (0.685) & (0.008) & (0.063) & (0.570) \\
+\addlinespace
+$\log\ $CPIPrc & 0.282 & 0.337 & 0.267 & -0.032 & 0.270 & 0.238 & 0.939 & 0.000 & 0.097 & 0.221 \\
+ & (0.163) & (0.340) & (0.213) & (0.241) & (0.265) & (0.297) & (0.710) & (0.012) & (0.053) & (0.253) \\
+\addlinespace
+$\log\ $TotRes & -0.090 & 0.051 & -0.052 & 0.121 & 0.127 & -0.006 & -0.162 & -0.000 & 0.025 & -0.407 \\
+ & (0.170) & (0.175) & (0.194) & (0.194) & (0.273) & (0.253) & (0.204) & (0.011) & (0.024) & (0.271) \\
+\addlinespace
+\midrule
+N & 3803 & 1877 & 2548 & 2111 & 2717 & 2367 & 1577 & 2374 & 1953 & 3803 \\
+Durbin-Watson & 1.99 & 1.99 & 2.01 & 1.96 & 2.01 & 2.03 & 2.00 & 2.89 & 2.11 & 2.00 \\
+F-stat & 1.54 & 1.66 & 1.64 & 1.15 & 1.36 & 4.02 & 1.65 & 0.17 & 4.40 & 1.31 \\
+\(R^2\) & 0.007 & 0.011 & 0.008 & 0.007 & 0.009 & 0.014 & 0.007 & 0.001 & 0.004 & 0.008 \\
+Adj.\ \(R^2\) & 0.004 & 0.006 & 0.005 & 0.002 & 0.006 & 0.010 & 0.001 & -0.003 & -0.001 & 0.005 \\
+\addlinespace
+\midrule
+\multicolumn{11}{c}{Specification tested: $R_{i,t+1} = \alpha_i + \beta_{sent} S_t + \phi R_{i,t} + \theta B_{i,t} + \gamma M_t + \varepsilon_{i,t+1}$}\\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Estimation Results from Predictive Regressions - diff_fng_value} \\
+This table presents coefficient estimates and Newey--West standard errors (in parentheses) from predictive regressions of next-day returns on the selected proxy for investor sentiment. The regression specification is reported at the top of the table. Each column corresponds to a selected cryptocurrency, chosen to represent the full range of categories in the sample: Bitcoin (BTC), two high-cap altcoins, two mid-cap altcoins, two low-cap altcoins, one stablecoin, one gold-pegged token, and one meme coin. Each regression is estimated separately using the available time series data for the respective cryptocurrency and the sentiment proxy. The dependent variable is the next-day log return. Standard errors are computed using the Newey--West estimator with automatic lag selection. Statistical significance is denoted as follows: *$p<0.05$, **$p<0.01$.}
+\label{tab:diff_fng_value_result_h1}
+\end{table}

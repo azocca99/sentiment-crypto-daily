@@ -1,0 +1,21 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l c c c c c}
+\toprule
+\textbf{Proxy} & \(\boldsymbol{\chi^2}\) & \textbf{df} & \textbf{p-value} & \textbf{\# Obs} & \textbf{HAC lags} \\
+\midrule
+VIX & 0.47 & 5 & 0.802 & 18014 & 0 \\
+TwitSIX & 0.62 & 5 & 0.688 & 13916 & 0 \\
+EPU\_DUS & 1.74 & 5 & 0.121 & 18014 & 0 \\
+InvSIX & 0.80 & 5 & 0.549 & 18014 & 0 \\
+fng\_value & 1.82 & 5 & 0.105 & 14978 & 0 \\
+ConSIX & 0.65 & 5 & 0.662 & 18014 & 0 \\
+\midrule
+\multicolumn{6}{c}{$H_0 : \beta_{sent,g_1} = \beta_{sent,g_2}=\ ...\ =\beta_{sent,g}$}\\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Wald Tests for Equality of Sentiment Slopes Across Functional Groups}\\ The table presents the results of Wald $\chi^2$ tests evaluating the null hypothesis that sentiment coefficients are identical across functional groups. Test statistics are computed using HAC (Newey--West) covariance estimates, with the lag length determined by the Akaike Information Criterion (AIC). The analysis includes six functional groups: Utility, Asset, Payment, and Hybrid variants (U-A, U-P, A-P). Reported are the $\chi^2$ statistic, the corresponding degrees of freedom (df), the p-value, the number of observations, and the number of HAC lags used.}
+\label{tab:h2_wald_tests}
+\end{table}

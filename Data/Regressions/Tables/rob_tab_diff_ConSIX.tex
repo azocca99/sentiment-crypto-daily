@@ -1,0 +1,55 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l *{10}{c}}
+\toprule
+&\multicolumn{1}{c}{\textbf{Bitcoin}}&\multicolumn{2}{c}{\textbf{High-Cap}}&\multicolumn{2}{c}{\textbf{Mid-Cap}}&\multicolumn{2}{c}{\textbf{Low-Cap}}&\multicolumn{1}{c}{\textbf{Gold}}&\multicolumn{1}{c}{\textbf{Stable}}&\multicolumn{1}{c}{\textbf{Meme}}\\
+\addlinespace
+ & BTC & EOS & AAVE & SNT & SUSHI & FUN & XEM & TUSD & PAXG & DOGE \\
+\midrule
+Intercept & 0.157** & -0.114 & 0.047 & -0.089 & -0.174 & -0.060 & 0.127 & 0.000 & 0.040 & 0.186 \\
+ & (0.059) & (0.106) & (0.149) & (0.132) & (0.190) & (0.128) & (0.111) & (0.004) & (0.022) & (0.108) \\
+\addlinespace
+diff_ConSIX & -0.018 & -0.428** & 0.143 & -0.991** & 0.271 & -0.437* & -0.110 & 0.007 & -0.015 & -0.050 \\
+ & (0.072) & (0.134) & (0.193) & (0.383) & (0.224) & (0.178) & (0.126) & (0.004) & (0.032) & (0.170) \\
+\addlinespace
+$R_{i,t}$ & -0.079 & -0.391* & -0.753** & -0.295 & -0.921** & -0.588* & -0.482** & -0.005 & 0.003 & -0.020 \\
+ & (0.102) & (0.163) & (0.202) & (0.381) & (0.357) & (0.245) & (0.133) & (0.007) & (0.028) & (0.317) \\
+\addlinespace
+$\Delta\log\ $TxCnt & -0.089 & -0.242* & 0.018 & -0.560 & -0.195 & 0.241 & -0.140 & 0.028* & 0.059 & 0.013 \\
+ & (0.060) & (0.102) & (0.480) & (0.627) & (0.405) & (0.240) & (0.137) & (0.013) & (0.064) & (0.091) \\
+\addlinespace
+$\Delta\log\ $Volume & -0.003 & -0.115 & 0.119 & -0.017 & 0.254 & -0.283 & 0.038 & 0.001 & 0.010 & 0.312* \\
+ & (0.068) & (0.113) & (0.348) & (0.251) & (0.319) & (0.157) & (0.129) & (0.005) & (0.041) & (0.135) \\
+\addlinespace
+$\Delta\log\ $AdrActCnt & 0.118 & 0.083 & 0.015 & 0.666 & 0.128 & -0.026 & 0.090 & -0.024* & -0.042 & -0.025 \\
+ & (0.069) & (0.098) & (0.367) & (0.689) & (0.316) & (0.201) & (0.151) & (0.011) & (0.046) & (0.106) \\
+\addlinespace
+$\log\ $UnemRt & 0.296* & 0.296 & 0.770 & 0.284 & 0.742 & 0.628 & 0.595** & -0.001 & 0.025 & 0.702** \\
+ & (0.119) & (0.265) & (0.472) & (0.317) & (0.564) & (0.324) & (0.229) & (0.004) & (0.118) & (0.267) \\
+\addlinespace
+$\log\ $IndPro & 0.109 & 0.076 & 0.417 & 0.037 & 1.562 & 0.304 & 0.206 & -0.001 & -0.072 & 0.717 \\
+ & (0.198) & (0.315) & (0.712) & (0.412) & (1.072) & (0.392) & (0.343) & (0.005) & (0.088) & (0.369) \\
+\addlinespace
+$\log\ $CPIPrc & 0.289 & 0.251 & 0.275 & 0.219 & -0.802 & 0.349 & 0.603* & 0.000 & 0.103 & 0.197 \\
+ & (0.161) & (0.213) & (0.706) & (0.256) & (1.011) & (0.264) & (0.245) & (0.007) & (0.073) & (0.251) \\
+\addlinespace
+$\log\ $TotRes & -0.248 & -0.077 & -0.120 & -0.024 & -0.155 & -0.173 & -0.688** & 0.000 & 0.027 & -0.474* \\
+ & (0.141) & (0.194) & (0.151) & (0.255) & (0.188) & (0.228) & (0.245) & (0.006) & (0.025) & (0.207) \\
+\addlinespace
+\midrule
+N & 3803 & 2548 & 1694 & 2903 & 1733 & 2828 & 3713 & 2521 & 1932 & 3803 \\
+Durbin-Watson & 2.04 & 2.00 & 1.91 & 1.85 & 2.02 & 2.05 & 2.09 & 2.76 & 2.36 & 1.99 \\
+F-stat & 1.48 & 2.73 & 2.55 & 1.40 & 2.05 & 1.76 & 4.84 & 0.76 & 0.81 & 1.53 \\
+\(R^2\) & 0.003 & 0.014 & 0.015 & 0.029 & 0.015 & 0.010 & 0.008 & 0.003 & 0.004 & 0.005 \\
+Adj.\ \(R^2\) & 0.001 & 0.011 & 0.009 & 0.026 & 0.010 & 0.007 & 0.005 & -0.000 & -0.001 & 0.003 \\
+\addlinespace
+\midrule
+\multicolumn{11}{c}{Specification tested: $R_{i,t+1} = \alpha_i + \beta_{sent} S_t + \phi R_{i,t} + \theta B_{i,t} + \gamma M_t + \varepsilon_{i,t+1}$}\\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Estimation Results from Predictive Regressions - diff_ConSIX} \\
+This table presents coefficient estimates and Newey--West standard errors (in parentheses) from predictive regressions of next-day returns on the selected proxy for investor sentiment. The regression specification is reported at the top of the table. Each column corresponds to a selected cryptocurrency, chosen to represent the full range of categories in the sample: Bitcoin (BTC), two high-cap altcoins, two mid-cap altcoins, two low-cap altcoins, one stablecoin, one gold-pegged token, and one meme coin. Each regression is estimated separately using the available time series data for the respective cryptocurrency and the sentiment proxy. The dependent variable is the next-day log return. Standard errors are computed using the Newey--West estimator with automatic lag selection. Statistical significance is denoted as follows: *$p<0.05$, **$p<0.01$.}
+\label{tab:diff_consix_result_h1}
+\end{table}

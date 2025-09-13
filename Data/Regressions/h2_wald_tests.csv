@@ -1,0 +1,7 @@
+proxy,groups_tested,nobs,hac_maxlags,wald_test,chi2,df_num,p_value
+ConSIX,"Utility,Asset,Payment,Hybrid (U-A),Hybrid (U-P),Hybrid (A-P)",18014,0,equal_betas_across_groups,0.6492662399057572,5,0.6620712414735872
+EPU_DUS,"Utility,Asset,Payment,Hybrid (U-A),Hybrid (U-P),Hybrid (A-P)",18014,0,equal_betas_across_groups,1.7412732078277906,5,0.12142583317806833
+InvSIX,"Utility,Asset,Payment,Hybrid (U-A),Hybrid (U-P),Hybrid (A-P)",18014,0,equal_betas_across_groups,0.8007701366275886,5,0.5488777496763233
+TwitSIX,"Utility,Asset,Payment,Hybrid (U-A),Hybrid (U-P),Hybrid (A-P)",13916,0,equal_betas_across_groups,0.6151496697959395,5,0.6883100613825825
+VIX,"Utility,Asset,Payment,Hybrid (U-A),Hybrid (U-P),Hybrid (A-P)",18014,0,equal_betas_across_groups,0.4651636848990021,5,0.8024610782456834
+fng_value,"Utility,Asset,Payment,Hybrid (U-A),Hybrid (U-P),Hybrid (A-P)",14978,0,equal_betas_across_groups,1.8236990288478103,5,0.10450159687113571

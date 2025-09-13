@@ -1,0 +1,55 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l *{6}{c}}
+\toprule
+ & Utility & Asset & Payment & Hybrid (U-A) & Hybrid (U-P) & Hybrid (A-P) \\
+\midrule
+Intercept & 0.364 & 0.298 & -0.005 & -0.084 & -0.163 & 0.047 \\
+ & (0.187) & (0.307) & (0.100) & (0.161) & (0.294) & (0.084) \\
+\addlinespace
+TwitSIX & 0.219 & 0.231 & 0.162 & -0.055 & 0.690 & 0.000 \\
+ & (0.352) & (0.322) & (0.143) & (0.170) & (0.516) & (0.035) \\
+\addlinespace
+$R_{g,t}$ & 0.003 & -0.214 & 0.238* & -0.198 & -0.014 & -0.293 \\
+ & (0.141) & (0.214) & (0.120) & (0.270) & (0.229) & (0.202) \\
+\addlinespace
+$\Delta\log\ $TxCnt & 0.083 & -1.700 & 0.066 & 0.245 & 0.271 & 0.200 \\
+ & (0.392) & (1.520) & (0.101) & (0.340) & (0.364) & (0.201) \\
+\addlinespace
+$\Delta\log\ $Volume & -0.205 & 0.223 & -0.088 & 0.257 & 0.262 & -0.054 \\
+ & (0.267) & (0.151) & (0.129) & (0.206) & (0.201) & (0.098) \\
+\addlinespace
+$\Delta\log\ $AdrActCnt & -0.193 & 0.979 & 0.028 & -0.609 & -0.143 & -0.363 \\
+ & (0.373) & (0.897) & (0.117) & (0.351) & (0.166) & (0.194) \\
+\addlinespace
+$\log\ $UnemRt & 0.994** & -2.682 & 0.460** & 0.484 & 1.033 & -0.033 \\
+ & (0.355) & (2.784) & (0.175) & (0.364) & (0.603) & (0.071) \\
+\addlinespace
+$\log\ $IndPro & 0.505 & -0.454 & 0.412 & 0.199 & 1.105 & 0.024 \\
+ & (0.327) & (0.531) & (0.288) & (0.379) & (0.963) & (0.032) \\
+\addlinespace
+$\log\ $CPIPrc & 0.306 & -2.600 & 0.163 & 0.049 & 0.541 & -0.067 \\
+ & (0.311) & (2.616) & (0.198) & (0.225) & (0.435) & (0.100) \\
+\addlinespace
+$\log\ $TotRes & -0.632* & -0.532 & -0.399 & -0.018 & -0.865 & -0.064 \\
+ & (0.310) & (0.541) & (0.231) & (0.347) & (0.667) & (0.079) \\
+\addlinespace
+\midrule
+N & 2587 & 1239 & 3089 & 2105 & 3089 & 1807 \\
+Durbin-Watson & 2.07 & 2.01 & 2.07 & 2.11 & 2.02 & 1.81 \\
+F-stat & 1.92 & 0.51 & 2.00 & 1.22 & 1.99 & 0.70 \\
+\(R^2\) & 0.005 & 0.019 & 0.006 & 0.006 & 0.004 & 0.011 \\
+Adj.\ \(R^2\) & 0.002 & 0.012 & 0.003 & 0.002 & 0.001 & 0.006 \\
+\addlinespace
+\midrule
+\multicolumn{7}{c}{Specification tested: $R_{g,t+1} = \alpha_g + \beta_{sent,g} S_t + \phi R_{g,t} + \theta B_{g,t} + \gamma M_t + \varepsilon_{g,t+1}$}\\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Estimation Results from Predictive Regressions — TwitSIX} \\
+This table presents coefficient estimates and Newey--West standard errors (in parentheses) from predictive regressions of next-day group returns on the selected proxy for investor sentiment.
+The regression specification is reported at the top of the table. Each column corresponds to a functional group portfolio (equal-weight) as defined in Section~\ref{sec:groupings}.
+The dependent variable is the next-day log return of the group portfolio. Standard errors are computed using the Newey--West estimator with automatic lag selection. Statistical significance is denoted as follows: *$p<0.05$, **$p<0.01$.}
+\label{tab:h2_twitsix_results}
+\end{table}

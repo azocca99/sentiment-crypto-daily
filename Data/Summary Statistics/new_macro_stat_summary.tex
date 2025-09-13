@@ -1,0 +1,29 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{lcrrrrr}
+\toprule
+Variable & Frequency & Mean & Median & Min & Max & Std Dev \\
+\midrule
+\multicolumn{7}{l}{\textbf{Macro Fundamentals}} \\
+CPIPrc & M & 136.9949 & 128.8430 & 113.8971 & 183.7939 & 20.5384 \\
+IndPro (Trillions USD) & M & 1.7322 & 1.7217 & 1.4730 & 1.9570 & 0.1259 \\
+TotRes (Millions USD) & M & 12.7852 & 12.6180 & 11.3407 & 14.4860 & 0.9111 \\
+Unemployment Rate & M & 0.0675 & 0.0670 & 0.0543 & 0.0946 & 0.0090 \\
+\addlinespace
+\multicolumn{7}{l}{\textbf{Sentiment}} \\
+ConSIX & M & 82.2472 & 87.2000 & 50.0000 & 101.4000 & 14.8287 \\
+InvSIX & W & 0.0115 & 0.0279 & -0.4314 & 0.4420 & 0.1687 \\
+TwitSIX & D & 0.6081 & 0.6043 & 0.2625 & 0.7426 & 0.0319 \\
+VIX & D & 18.3158 & 16.4150 & 9.1400 & 82.6900 & 7.2184 \\
+fng_value & D & 47.2174 & 46.0000 & 5.0000 & 95.0000 & 21.8362 \\
+\addlinespace
+\multicolumn{7}{l}{\textbf{Uncertainty}} \\
+EPU_DUS & D & 141.4859 & 104.4100 & 3.3200 & 1026.3800 & 119.9170 \\
+\addlinespace
+\bottomrule
+\end{tabular}
+\caption{Summary Statistics for Sentiment and Macro Variables (Grouped by Category, Scaled and Frequency-Adjusted)}
+\label{tab:macro_stat_summary}
+\end{table}

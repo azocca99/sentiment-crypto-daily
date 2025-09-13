@@ -1,0 +1,55 @@
+\begin{table}[ht]
+\centering
+\scriptsize
+\setlength{\tabcolsep}{4pt}
+\begin{tabular}{l *{10}{c}}
+\toprule
+&\multicolumn{1}{c}{\textbf{Bitcoin}}&\multicolumn{2}{c}{\textbf{High-Cap}}&\multicolumn{2}{c}{\textbf{Mid-Cap}}&\multicolumn{2}{c}{\textbf{Low-Cap}}&\multicolumn{1}{c}{\textbf{Gold}}&\multicolumn{1}{c}{\textbf{Stable}}&\multicolumn{1}{c}{\textbf{Meme}}\\
+\addlinespace
+ & BTC & XRP & ATOM & DCR & BAT & CEL & PERP & USDT & PAXG & SHIB \\
+\midrule
+Intercept & 0.157** & 0.127 & 0.006 & 0.068 & -0.019 & 0.010 & -0.173 & 0.001 & 0.040 & -0.039 \\
+ & (0.059) & (0.100) & (0.122) & (0.108) & (0.111) & (0.184) & (0.183) & (0.017) & (0.022) & (0.173) \\
+\addlinespace
+log_UnemRt & 0.297* & 0.530* & 0.430 & 0.788** & 0.317 & 1.024** & 0.576 & 0.008 & 0.024 & -0.709 \\
+ & (0.120) & (0.211) & (0.335) & (0.236) & (0.272) & (0.326) & (0.555) & (0.045) & (0.118) & (0.733) \\
+\addlinespace
+$R_{i,t}$ & -0.090 & -0.148 & -0.406** & -0.502 & -0.358 & -0.061 & 0.068 & -0.477** & -0.009 & 1.105** \\
+ & (0.086) & (0.150) & (0.137) & (0.297) & (0.220) & (0.343) & (0.091) & (0.082) & (0.012) & (0.188) \\
+\addlinespace
+$\Delta\log\ $TxCnt &  &  &  &  &  &  &  &  &  &  \\
+ & () & () & () & () & () & () & () & () & () & () \\
+\addlinespace
+$\Delta\log\ $Volume &  &  &  &  &  &  &  &  &  &  \\
+ & () & () & () & () & () & () & () & () & () & () \\
+\addlinespace
+$\Delta\log\ $AdrActCnt &  &  &  &  &  &  &  &  &  &  \\
+ & () & () & () & () & () & () & () & () & () & () \\
+\addlinespace
+$\log\ $UnemRt & 0.297* & 0.530* & 0.430 & 0.788** & 0.317 & 1.024** & 0.576 & 0.008 & 0.024 & -0.709 \\
+ & (0.120) & (0.211) & (0.335) & (0.236) & (0.272) & (0.326) & (0.555) & (0.045) & (0.118) & (0.733) \\
+\addlinespace
+$\log\ $IndPro & 0.108 & 0.584 & 0.179 & 0.681* & 0.113 & 0.160 & -0.404 & 0.011 & -0.074 & -1.163 \\
+ & (0.198) & (0.315) & (0.348) & (0.314) & (0.323) & (0.369) & (0.688) & (0.090) & (0.088) & (0.709) \\
+\addlinespace
+$\log\ $CPIPrc & 0.291 & 0.396 & 0.056 & 0.363 & 0.112 & 0.597 & 0.937 & 0.006 & 0.103 & 0.565 \\
+ & (0.161) & (0.225) & (0.256) & (0.238) & (0.252) & (0.341) & (0.712) & (0.020) & (0.073) & (0.863) \\
+\addlinespace
+$\log\ $TotRes & -0.248 & -0.632** & 0.003 & -0.701** & -0.055 & -0.294 & -0.156 & -0.013 & 0.027 & 0.450 \\
+ & (0.141) & (0.231) & (0.224) & (0.268) & (0.243) & (0.206) & (0.204) & (0.058) & (0.025) & (0.280) \\
+\addlinespace
+\midrule
+N & 3803 & 3803 & 2230 & 3301 & 2794 & 2179 & 1577 & 3803 & 1932 & 1481 \\
+Durbin-Watson & 2.04 & 2.07 & 2.01 & 2.10 & 2.05 & 2.04 & 2.03 & 2.21 & 2.36 & 2.20 \\
+F-stat & 1.93 & 2.25 & 2.72 & 2.99 & 1.10 & 3.29 & 0.78 & 6.92 & 1.13 & 7.98 \\
+\(R^2\) & 0.002 & 0.003 & 0.007 & 0.010 & 0.005 & 0.004 & 0.002 & 0.165 & 0.003 & 0.036 \\
+Adj.\ \(R^2\) & 0.001 & 0.001 & 0.005 & 0.008 & 0.003 & 0.002 & -0.002 & 0.163 & 0.000 & 0.033 \\
+\addlinespace
+\midrule
+\multicolumn{11}{c}{Specification tested: $R_{i,t+1} = \alpha_i + \beta_{sent} S_t + \phi R_{i,t} + \theta B_{i,t} + \gamma M_t + \varepsilon_{i,t+1}$}\\
+\bottomrule
+\end{tabular}
+\caption{\textbf{Estimation Results from Predictive Regressions - log_UnemRt} \\
+This table presents coefficient estimates and Newey--West standard errors (in parentheses) from predictive regressions of next-day returns on the selected proxy for investor sentiment. The regression specification is reported at the top of the table. Each column corresponds to a selected cryptocurrency, chosen to represent the full range of categories in the sample: Bitcoin (BTC), two high-cap altcoins, two mid-cap altcoins, two low-cap altcoins, one stablecoin, one gold-pegged token, and one meme coin. Each regression is estimated separately using the available time series data for the respective cryptocurrency and the sentiment proxy. The dependent variable is the next-day log return. Standard errors are computed using the Newey--West estimator with automatic lag selection. Statistical significance is denoted as follows: *$p<0.05$, **$p<0.01$.}
+\label{tab:log_unemrt_result_h1}
+\end{table}

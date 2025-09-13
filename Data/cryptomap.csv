@@ -1,0 +1,125 @@
+Symbol,Primary_Category,Secondary_Category,Token_Type,Description,Final_Category
+1INCH,Utility Tokens,,Governance Tokens,DEX aggregator governance token for protocol decisions,Utility Tokens
+AAVE,Utility Tokens,,Governance Tokens,DeFi lending protocol governance token,Utility Tokens
+ADA,Payment Tokens,Utility Tokens,Platform Tokens,Cardano blockchain native token and staking mechanism,Hybrid_UP
+ALCX,Asset Tokens,,Yield Tokens,Alchemix synthetic asset representing future yield,Asset Tokens
+ALGO,Payment Tokens,Utility Tokens,Platform Tokens,Algorand blockchain native token and consensus mechanism,Hybrid_UP
+ALPHA,Asset Tokens,,Yield Tokens,Alpha Finance leveraged yield farming protocol token,Asset Tokens
+ANT,Utility Tokens,,Governance Tokens,Aragon DAO governance platform token,Utility Tokens
+APE,Utility Tokens,,Governance Tokens,ApeCoin NFT ecosystem membership and governance token,Utility Tokens
+API3,Utility Tokens,Payment Tokens,Network Tokens,Decentralized API oracle network access token,Hybrid_UP
+ATOM,Payment Tokens,Utility Tokens,Platform Tokens,Cosmos Hub native token for staking and governance,Hybrid_UP
+AUDIO,Utility Tokens,Payment Tokens,Platform Tokens,Audius music streaming platform access token,Hybrid_UP
+AVAX,Payment Tokens,Utility Tokens,Platform Tokens,Avalanche blockchain native token and gas fee payment,Hybrid_UP
+BADGER,Utility Tokens,,Governance Tokens,Badger DAO Bitcoin DeFi governance token,Utility Tokens
+BAL,Utility Tokens,,Governance Tokens,Balancer AMM protocol governance token,Utility Tokens
+BAT,Utility Tokens,,Basic Attention Tokens,Brave browser attention-based advertising token,Utility Tokens
+BCH,Payment Tokens,,Cryptocurrencies,Bitcoin Cash peer-to-peer electronic cash,Payment Tokens
+BIT,Utility Tokens,,Governance Tokens,BitDAO treasury and investment governance token,Utility Tokens
+BNB,Payment Tokens,,Exchange Tokens,Binance exchange token and BSC gas payment,Payment Tokens
+BNT,Utility Tokens,Payment Tokens,Platform Tokens,Bancor automated market maker protocol token,Hybrid_UP
+BSV,Payment Tokens,,Cryptocurrencies,Bitcoin Satoshi Vision cryptocurrency,Payment Tokens
+BTC,Payment Tokens,,Cryptocurrencies,Bitcoin original peer-to-peer electronic cash,Payment Tokens
+BTG,Payment Tokens,,Cryptocurrencies,Bitcoin Gold mining-focused cryptocurrency,Payment Tokens
+BUSD,Payment Tokens,Asset Tokens,Stablecoins,Binance USD fiat-pegged stablecoin,Hybrid_AP
+CEL,Utility Tokens,,Access Tokens,Celsius lending platform yield and ,Utility Tokens
+COMP,Utility Tokens,,Governance Tokens,Compound lending protocol governance token,Utility Tokens
+CRO,Payment Tokens,,Exchange Tokens,Crypto.com exchange and payment platform token,Payment Tokens
+CRV,Utility Tokens,,Governance Tokens,Curve Finance DEX governance token,Utility Tokens
+CVC,Utility Tokens,Asset Tokens,Identity Tokens,Civic decentralized identity verification token,Hybrid_UA
+CVX,Asset Tokens,,Yield Tokens,Convex Finance Curve yield optimization token,Asset Tokens
+DAI,Payment Tokens,Asset Tokens,Stablecoins,MakerDAO decentralized algorithmic stablecoin,Hybrid_AP
+DASH,Payment Tokens,,Cryptocurrencies,Dash privacy-focused digital cash,Payment Tokens
+DCR,Utility Tokens,,Governance Tokens,Decred hybrid consensus with governance voting,Utility Tokens
+DGB,Payment Tokens,,Cryptocurrencies,DigiByte secure blockchain cryptocurrency,Payment Tokens
+DOGE,Payment Tokens,,Cryptocurrencies,Dogecoin peer-to-peer digital currency,Payment Tokens
+DOT,Payment Tokens,Utility Tokens,Platform Tokens,Polkadot interoperability platform native token,Hybrid_UP
+DRGN,Utility Tokens,Payment Tokens,Platform Tokens,Dragonchain enterprise blockchain platform token,Hybrid_UP
+ELF,Utility Tokens,Payment Tokens,Platform Tokens,aelf cloud computing blockchain platform token,Hybrid_UP
+ENJ,Utility Tokens,Payment Tokens,Platform Tokens,Enjin gaming and NFT platform utility token,Hybrid_UP
+ENS,Utility Tokens,,Governance Tokens,Ethereum Name Service governance token,Utility Tokens
+EOS,Payment Tokens,Utility Tokens,Platform Tokens,EOS blockchain platform native token,Hybrid_UP
+ETC,Payment Tokens,,Cryptocurrencies,Ethereum Classic original Ethereum blockchain,Payment Tokens
+ETH,Payment Tokens,,Cryptocurrencies,Ethereum native currency and smart contract gas,Payment Tokens
+FIL,Utility Tokens,Payment Tokens,Network Tokens,Filecoin decentralized storage network payment token,Hybrid_UP
+FLOW,Payment Tokens,Utility Tokens,Platform Tokens,Flow blockchain for NFTs and games,Hybrid_UP
+FTT,Payment Tokens,,Exchange Tokens,FTX exchange utility token (defunct),Payment Tokens
+FUN,Utility Tokens,Payment Tokens,Platform Tokens,FunFair decentralized gaming platform token,Hybrid_UP
+FXS,Utility Tokens,,Governance Tokens,Frax Share stablecoin protocol governance token,Utility Tokens
+GALA,Utility Tokens,Payment Tokens,Platform Tokens,Gala Games ecosystem utility token,Hybrid_UP
+GAS,Utility Tokens,Payment Tokens,Network Tokens,NEO blockchain gas token for smart contracts,Hybrid_UP
+GLM,Utility Tokens,Payment Tokens,Network Tokens,Golem decentralized computing network token,Hybrid_UP
+GNO,Utility Tokens,Payment Tokens,Platform Tokens,Gnosis prediction market and DeFi platform token,Hybrid_UP
+GNT,Utility Tokens,Payment Tokens,Network Tokens,Golem Network Token for computing power (legacy),Hybrid_UP
+GRIN,Payment Tokens,,Cryptocurrencies,Grin privacy-focused cryptocurrency,Payment Tokens
+GRT,Utility Tokens,Payment Tokens,Network Tokens,The Graph decentralized indexing protocol token,Hybrid_UP
+GUSD,Payment Tokens,Asset Tokens,Stablecoins,Gemini USD regulated fiat-backed stablecoin,Hybrid_AP
+HEDG,Utility Tokens,,Access Tokens,HedgeTrade social trading investment platform token,Utility Tokens
+HT,Payment Tokens,,Exchange Tokens,Huobi Token exchange utility and fee token,Payment Tokens
+HUSD,Payment Tokens,Asset Tokens,Stablecoins,HUSD fiat-backed stablecoin,Hybrid_AP
+ICP,Payment Tokens,Utility Tokens,Platform Tokens,Internet Computer blockchain native token,Hybrid_UP
+ICX,Utility Tokens,Payment Tokens,Platform Tokens,ICON blockchain interoperability platform token,Hybrid_UP
+KNC,Utility Tokens,Payment Tokens,Platform Tokens,Kyber Network DEX protocol token,Hybrid_UP
+LDO,Utility Tokens,,Governance Tokens,Lido liquid staking protocol governance token,Utility Tokens
+LEND,Utility Tokens,Payment Tokens,Platform Tokens,Aave lending protocol token (legacy AAVE),Hybrid_UP
+LINK,Utility Tokens,Payment Tokens,Network Tokens,Chainlink decentralized oracle network token,Hybrid_UP
+LOOM,Utility Tokens,Payment Tokens,Platform Tokens,Loom Network blockchain scaling solution token,Hybrid_UP
+LPT,Utility Tokens,Payment Tokens,Network Tokens,Livepeer decentralized video streaming network token,Hybrid_UP
+LRC,Utility Tokens,Payment Tokens,Platform Tokens,Loopring layer 2 scaling DEX protocol token,Hybrid_UP
+LSK,Utility Tokens,Payment Tokens,Platform Tokens,Lisk blockchain application development platform token,Hybrid_UP
+LTC,Payment Tokens,,Cryptocurrencies,Litecoin peer-to-peer digital currency,Payment Tokens
+LUNA,Payment Tokens,Utility Tokens,Platform Tokens,Terra blockchain ecosystem native token (classic),Hybrid_UP
+MAID,Utility Tokens,Payment Tokens,Network Tokens,MaidSafeCoin decentralized internet network token,Hybrid_UP
+MANA,Utility Tokens,Payment Tokens,Platform Tokens,Decentraland virtual world platform token,Hybrid_UP
+MKR,Utility Tokens,,Governance Tokens,MakerDAO governance token for DAI stablecoin,Utility Tokens
+MTL_METAL,Payment Tokens,,Cryptocurrencies,Metal blockchain payment processing token,Payment Tokens
+NEO,Payment Tokens,Utility Tokens,Platform Tokens,NEO smart contract platform native token,Hybrid_UP
+NMR,Utility Tokens,Payment Tokens,Platform Tokens,Numeraire hedge fund tournament platform token,Hybrid_UP
+OGN,Utility Tokens,Payment Tokens,Platform Tokens,Origin Protocol decentralized marketplace token,Hybrid_UP
+OMG,Utility Tokens,Payment Tokens,Platform Tokens,OMG Network layer 2 scaling solution token,Hybrid_UP
+PAX,Payment Tokens,Asset Tokens,Stablecoins,Paxos Standard fiat-backed stablecoin (deprecated),Hybrid_AP
+PAXG,Asset Tokens,,Tokenized Funds,PAX Gold tokenized physical gold asset,Asset Tokens
+PAY,Payment Tokens,,Cryptocurrencies,TenX payment card cryptocurrency token,Payment Tokens
+PERP,Utility Tokens,Payment Tokens,Platform Tokens,Perpetual Protocol derivatives DEX platform token,Hybrid_UP
+POLY,Utility Tokens,Payment Tokens,Platform Tokens,Polymath security token issuance platform,Hybrid_UP
+POWR,Utility Tokens,Payment Tokens,Network Tokens,Power Ledger energy trading network token,Hybrid_UP
+PPT,Utility Tokens,Payment Tokens,Platform Tokens,Populous invoice financing platform token,Hybrid_UP
+QASH,Utility Tokens,Payment Tokens,Platform Tokens,Liquid exchange platform token,Hybrid_UP
+QNT,Utility Tokens,,Network Tokens,Quant blockchain interoperability network token,Utility Tokens
+QTUM,Payment Tokens,Utility Tokens,Platform Tokens,Qtum smart contract platform native token,Hybrid_UP
+REN,Utility Tokens,Payment Tokens,Network Tokens,REN Protocol cross-chain liquidity network token,Hybrid_UP
+REP,Utility Tokens,Payment Tokens,Platform Tokens,Augur decentralized prediction market token,Hybrid_UP
+ROOK,Utility Tokens,,Governance Tokens,KeeperDAO MEV protection governance token,Utility Tokens
+RSR,Utility Tokens,Payment Tokens,Platform Tokens,Reserve Rights stablecoin protocol utility token,Hybrid_UP
+SAND,Utility Tokens,Payment Tokens,Platform Tokens,The Sandbox virtual world metaverse token,Hybrid_UP
+SHIB,Payment Tokens,,Cryptocurrencies,Shiba Inu meme-based cryptocurrency,Payment Tokens
+SKL,Utility Tokens,Payment Tokens,Network Tokens,SKALE Network blockchain scaling solution token,Hybrid_UP
+SNT,Utility Tokens,Payment Tokens,Platform Tokens,Status decentralized messaging platform token,Hybrid_UP
+SNX,Utility Tokens,Payment Tokens,Platform Tokens,Synthetix derivatives and synthetic assets platform token,Hybrid_UP
+SOL,Payment Tokens,Utility Tokens,Platform Tokens,Solana blockchain native token and gas payment,Hybrid_UP
+SRM,Utility Tokens,Payment Tokens,Platform Tokens,Serum decentralized exchange platform token,Hybrid_UP
+STORJ,Utility Tokens,Payment Tokens,Network Tokens,Storj decentralized cloud storage network token,Hybrid_UP
+SUSHI,Utility Tokens,,Governance Tokens,SushiSwap DEX governance token,Utility Tokens
+SWRV,Utility Tokens,,Governance Tokens,Swerve Finance yield farming governance token,Utility Tokens
+TRX,Payment Tokens,Utility Tokens,Platform Tokens,TRON blockchain platform native token,Hybrid_UP
+TUSD,Payment Tokens,Asset Tokens,Stablecoins,TrueUSD fiat-backed stablecoin,Hybrid_AP
+UMA,Utility Tokens,Payment Tokens,Platform Tokens,Universal Market Access derivatives platform token,Hybrid_UP
+UNI,Utility Tokens,,Governance Tokens,Uniswap DEX governance token,Utility Tokens
+USDC,Payment Tokens,Asset Tokens,Stablecoins,USD Coin regulated fiat-backed stablecoin,Hybrid_AP
+USDT,Payment Tokens,Asset Tokens,Stablecoins,Tether USD fiat-backed stablecoin,Hybrid_AP
+VET,Utility Tokens,Payment Tokens,Platform Tokens,VeChain supply chain management platform token,Hybrid_UP
+VTC,Payment Tokens,,Cryptocurrencies,Vertcoin ASIC-resistant cryptocurrency,Payment Tokens
+WAVES,Payment Tokens,Utility Tokens,Platform Tokens,Waves blockchain platform native token,Hybrid_UP
+WNXM,Utility Tokens,Payment Tokens,Platform Tokens,Wrapped NXM insurance protocol token,Hybrid_UP
+WTC,Utility Tokens,Payment Tokens,Platform Tokens,Waltonchain IoT and supply chain platform token,Hybrid_UP
+XAUT,Asset Tokens,,Tokenized Funds,Tether Gold tokenized physical gold asset,Asset Tokens
+XEM,Utility Tokens,Payment Tokens,Platform Tokens,NEM blockchain platform native token,Hybrid_UP
+XLM,Payment Tokens,,Cryptocurrencies,Stellar Lumens cross-border payment cryptocurrency,Payment Tokens
+XMR,Payment Tokens,,Cryptocurrencies,Monero privacy-focused cryptocurrency,Payment Tokens
+XRP,Payment Tokens,,Cryptocurrencies,Ripple cross-border payment cryptocurrency,Payment Tokens
+XTZ,Payment Tokens,Utility Tokens,Platform Tokens,Tezos blockchain platform native token with governance,Hybrid_UP
+XVG,Payment Tokens,,Cryptocurrencies,Verge privacy-focused cryptocurrency,Payment Tokens
+YFI,Utility Tokens,,Governance Tokens,yearn.finance yield optimization governance token,Utility Tokens
+ZEC,Payment Tokens,,Cryptocurrencies,Zcash privacy-focused cryptocurrency,Payment Tokens
+ZIL,Payment Tokens,Utility Tokens,Platform Tokens,Zilliqa high-throughput blockchain platform token,Hybrid_UP
+ZRX,Utility Tokens,Payment Tokens,Platform Tokens,0x protocol decentralized exchange infrastructure token ,Hybrid_UP
